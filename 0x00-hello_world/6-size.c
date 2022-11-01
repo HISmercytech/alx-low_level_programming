@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- *C program to print size of various data type in c 
- */
+ *main- Serves as the entry point for the program
+ *
+ *Return: By default returns zero if no erros otherwise returns non-zero value.
+  */
 int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
