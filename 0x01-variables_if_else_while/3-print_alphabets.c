@@ -11,10 +11,20 @@ int main(void)
 	char Y;
 
 	for (y = 'a'; y <= 'z'; y++)
-	for (Y = 'A'; Y <= 'Z'; Y++)
 	{
 		putchar(y);
+		if (y == 'z')
+		{
+			continue;
+		}
+	}
+	for (Y = 'A'; Y <= 'Z'; Y++)
+	{	
 		putchar(Y);
+		if (y == 'Z')
+		{
+		break;
+		}
 	}
 	putchar('\n');
 	return (0);
