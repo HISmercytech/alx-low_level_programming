@@ -19,7 +19,7 @@ int main(void)
 		}
 	}
 	for (Y = 'A'; Y <= 'Z'; Y++)
-	{	
+	{
 		putchar(Y);
 		if (y == 'Z')
 		{
