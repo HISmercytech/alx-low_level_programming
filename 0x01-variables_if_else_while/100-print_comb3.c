@@ -14,12 +14,10 @@ int main(void)
 		for (j = '1'; j <= '9'; j++)
 		{
 		if (i != j && i < j)
-		 {
-		    putchar(i);
-		    putchar(j);
-		    putchar(',');
-		    putchar(' ');
-		 }
+		{
+			putchar(i);
+			putchar(j);
+		}
 		else
 		{
 			continue;
@@ -28,6 +26,8 @@ int main(void)
 		{
 			break;
 		}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
